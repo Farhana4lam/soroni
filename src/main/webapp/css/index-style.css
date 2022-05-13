@@ -1,0 +1,114 @@
+.bs-example{
+        margin: 20px;
+    }
+
+
+
+body{
+text-align: center;
+background-color: #ffe6eb;
+}
+
+h3{
+  color: red;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+ #clockdiv{
+    font-family: sans-serif;
+    color:  red;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #ffcdd6;
+    display: inline-block;
+}
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #ffe6eb;
+    display: inline-block;
+}
+smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.container-lg{
+    background-color:#ffe6eb;
+    
+}
+
+.title h1,h5
+{
+    color: #35394c;
+    
+}
+.h5
+{
+    color: #ed6a5aff;
+    
+}
+
+
+.box select
+{
+    background: #fff1b3;
+    color: #35394c;
+    padding: 10px;
+    width: 200px;
+    border: none;   
+}
+
+.box input[type="submit"] {
+    display: block;
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 100px;
+    background: #fff1b3;
+    color: #35394c;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.box input[type="submit"]:hover {
+    border: none;
+    outline: none;
+    height: 35px; 
+    background: #35394c;
+    color: #fff1b3;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.container-sm{
+    background-color: #b3c1ff;
+    height: 300px;
+    
+}
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: #192038ff;
+}
+
+
+
+.update_msg{
+    color: #ed6a5aff;
+}

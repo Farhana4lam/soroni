@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.bs-example{
+        margin: 20px;
+    }
+    
+.btn{
+    background-color: #35394c;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #f4f1bbff;
+    color: #35394c;
+}
+
+.thead{
+    background-color: #35394c; 
+    color: white;
+}
+
+.table{
+    font-size: 13px;
+}
+
+.update_msg{
+    color: red;
+}
+
+.main {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #35394c; 
+}
+

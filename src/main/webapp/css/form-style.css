@@ -1,0 +1,64 @@
+@import "compass/css3";
+.bs-example{
+        margin: 20px;
+    }
+* {
+  box-sizing: border-box;
+  
+}
+
+
+  input[type=file] {
+    
+    cursor: pointer;
+  }
+  
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  
+  height: 100%;
+  background: white;
+  color: #35394c;
+  
+}
+
+h1 {
+  text-align: center;
+  margin: 50px auto;
+  font-weight: 100;
+}
+
+
+.form-control {
+  display: block;
+  padding: 8px 16px;
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid rgba(255,255,255,0.3);
+  color: black;
+  font-weight: 200;
+  
+}
+
+
+
+
+
+.card{
+    background-color: #fff1b3;
+}
+
+.btnn{
+    background-color: #35394c;
+    color: white;
+    border-radius: 25px;
+}
+
+.btnn:hover{
+    background-color: #b3c1ff;
+    color: #35394c;
+    border-radius: 25px;
+}

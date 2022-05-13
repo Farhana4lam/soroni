@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+
+.container-sm{
+    background-color: white;
+    width: 10px;
+}
+
+.container-sm header{
+  color: #35394c;
+  font-size: 33px;
+  font-weight: 600;
+  margin: 0 0 35px 0;
+  font-family: 'Orelega One';
+}
+.field{
+  position: relative;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  background: #e6ebff;
+}
+
+.field span{
+  color: #222;
+  width: 40px;
+  line-height: 45px;
+}
+
+.field input{
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #222;
+  font-size: 16px;
+  font-family: 'Orelega One';
+}
+
+.space{
+  margin-top: 16px;
+}
+.show{
+  position: absolute;
+  right: 13px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #222;
+  display: none;
+  cursor: pointer;
+  font-family: 'Orelega One';
+}
+
+.pass-key:valid ~ .show{
+  display: block;
+}
+.pass{
+  text-align: left;
+  margin: 10px 0;
+}
+.pass a{
+  color: #35394c;
+  text-decoration: none;
+  font-family: 'Orelega One';
+}
+
+.pass:hover a{
+  text-decoration: underline;
+  color: #35394c;
+}
+.field input[type="submit"]{
+  background:  #192038ff;
+  border: 1px solid #2691d9;
+  color: #f4f1bbff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Orelega One';
+}
+
+.field input[type="submit"]:hover{
+  background: #f4f1bbff;
+  color: #192038ff;
+}
+.login{
+  color: white;
+  margin: 20px 0;
+  font-family: 'Orelega One';
+}
+
+.login_err
+{
+    color:red;
+}
